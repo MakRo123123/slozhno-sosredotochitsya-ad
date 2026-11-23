@@ -4,7 +4,7 @@
   --background-image: url('../images/cover-image-light.png');
   --accent-color: #ff8dcb;
   --display-color: #ffc2e6;
-  --display-shadow: #ff0070;
+  --display-shadow: #ff8dcb;
   --copy-color: #353430;
   --highlight-color: #353430;
   --label-color: #353430;
@@ -19,7 +19,7 @@
     --background-image: url('../images/cover-image-light.png');
     --accent-color: #ff8dcb;
     --display-color: #ffc2e6;
-    --display-shadow: #ff0070;
+    --display-shadow: #ff8dcb;
     --copy-color: #353430;
     --highlight-color: #353430;
     --label-color: #353430;

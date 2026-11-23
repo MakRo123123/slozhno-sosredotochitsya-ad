@@ -14,7 +14,6 @@
 .header,
 .footer {
   display: grid;
-  min-block-size: max(668px, 100vh);
   min-block-size: max(668px, 100svh);
   padding: var(--edge);
 }
@@ -207,7 +206,6 @@
 @media (width >= 768px) {
   .header,
   .footer {
-    min-block-size: max(768px, 100vh);
     min-block-size: max(768px, 100svh);
   }
 
@@ -242,14 +240,32 @@
     object-fit: cover;
   }
 
-  .gallery__image_sunset { grid-area: sunset; }
-  .gallery__image_ice-cream { grid-area: ice-cream; }
-  .gallery__image_tape { grid-area: tape; }
-  .gallery__image_books { grid-area: books; }
-  .gallery__image_street { grid-area: street; }
+  .gallery__image_sunset {
+    grid-area: sunset;
+  }
+
+  .gallery__image_ice-cream {
+    grid-area: ice-cream;
+  }
+
+  .gallery__image_tape {
+    grid-area: tape;
+  }
+
+  .gallery__image_books {
+    grid-area: books;
+  }
+
+  .gallery__image_street {
+    grid-area: street;
+  }
 }
 
 @media (width >= 1024px) {
+  .display-title {
+    --display-shadow: #ff0070;
+  }
+
   .header__theme-menu {
     align-self: start;
     justify-self: center;
